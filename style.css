@@ -341,9 +341,11 @@ display: flex;
   .experience-details-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    
   }
   
+  
+
   .article-container {
     display: flex;
     text-align: initial;
@@ -370,4 +372,77 @@ display: flex;
 
 #projects{
     position: relative;
+}
+
+.color-container{
+    border-color: rgb(163, 163, 163);
+    background-color: white
+    
+}
+.project-img{
+    border-radius: 10%;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+
+/* .project-btn{
+    color: black;
+} */
+
+
+/* CONTACT ME SECTION */
+
+#contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    max-width: fit-content;
+    padding: 1.5rem;
+    align-self: center;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+   
+}
+
+.contact-info{
+    display: flex;
+    gap: 0.5rem;
+ align-items: center;
+ justify-content: center;
+ margin: 0.5rem;
+}
+
+.contact-info p{
+    font-size: large;
+}
+
+.contact-icon{
+    cursor: default;
+
+}
+
+.email-icon{
+    height: 2.3rem;
+}
+
+/* FOOTER */
+footer{
+    height: 10vh;
+    margin: 0;
+    text-align: center;
 }
