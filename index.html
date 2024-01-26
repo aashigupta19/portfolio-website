@@ -11,7 +11,10 @@
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Aashi Gupta</div>
+        <div class="logo">
+            <img class="logo_pic" src="./assets/sunflower.png" src="sunflower_pic" onclick="location.href='/'">
+            Aashi Gupta
+        </div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -42,6 +45,7 @@
         </div>
     </nav>
 
+    <div></div>
     <section id="profile">
         <div class="section__pic-container">
             <img class="profile-pic" src="./assets/aashi-profile.jpg" alt="Aashi_Gupta_Profile-Pic.jpg" />
@@ -60,10 +64,10 @@
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="linkedin.png" class="icon"
-                    onclick="location.href='https://linkedin.com'" />
+                    onclick="location.href='https://www.linkedin.com/in/aashigupta12/'" />
                 <!-- see icons for these please -->
                 <img src="./assets/github.png" alt="linkedin.png" class="icon"
-                    onclick="location.href='https://github.com/aashigupta19/portfolio-website'" />
+                    onclick="location.href='https://github.com/aashigupta19'" />
             </div>
         </div>
     </section>
@@ -96,10 +100,12 @@
                 </div>
                 <div class="text">
                     <p>
-                        Lorem Ipsum Container text (write your about summary in roughly 250 words here please)
-                        Lorem Ipsum Container text (write your about summary in roughly 250 words here please)
-                        rem Ipsum Container text (write your about summary in roughly 250 words here please)
-
+                        Hola! I'm a developer with a passion for crafting delightful online experiences. I love to
+                        design and code user-friendly and beautiful UI's for my office people. I like the idea of
+                        transforming ideas into visually appealing websites. <br>
+                        Besides work, you can find me with paintbrushes and my hands full of acrylic paints, or reading
+                        a book. Or you can find me head-banging to the OG rock metals of the 70's. And yea, have i told
+                        you about my anime passion yet?
                     </p>
 
                 </div>
@@ -129,16 +135,17 @@
                 <!-- project one -->
                 <div class="details color-container">
                     <div class="article-container">
-                        <img class="project-img" src="./assets/checkmark.png" alt="project-1-pic">
+                        <img class="project-img" src="./assets/blog-web.png" alt="project-1-pic">
 
                     </div>
-                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <h2 class="experience-sub-title project-title">Blog Website</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="window.open('https://github.com/aashigupta19/portfolio-website')">
+                            onclick="window.open('https://github.com/aashigupta19/blog_website')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='./#contact'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/aashigupta19/blog_website')">
                             Live Demo
                         </button>
                     </div>
@@ -147,22 +154,22 @@
                 <!-- project two -->
                 <div class="details color-container">
                     <div class="article-container">
-                        <img class="project-img" src="./assets/checkmark.png" alt="project-2-pic">
+                        <img class="project-img" src="assets/pswd.png" alt="project-2-pic">
 
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">Password Manager</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="window.open('https://github.com/aashigupta19/portfolio-website')">
+                            onclick="window.open('https://github.com/aashigupta19/Password-Manager')">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='./#contact'">
+                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='./#contact'">
                             Live Demo
-                        </button>
+                        </button> -->
                     </div>
                 </div>
 
-                <!-- project three -->
+                <!-- project three
                 <div class="details color-container">
                     <div class="article-container">
                         <img class="project-img" src="./assets/checkmark.png" alt="project-3-pic">
@@ -178,7 +185,7 @@
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <img src="./assets/arrow.png" class="icon arrow" alt="next-section-arrow" onclick="location.href='./#contact'">
@@ -194,7 +201,7 @@
             </div>
             <div class="contact-info">
                 <img src="./assets/linkedin.png" alt="linkedin.png" class="icon contact-icon" />
-                <p><a href="https://linkedin.com">Linkedin Profile</a></p>
+                <p><a href="https://www.linkedin.com/in/aashigupta12/">Linkedin Profile</a></p>
             </div>
 
 
@@ -202,7 +209,12 @@
     </section>
 
     <footer>
-        <p> Copyright &#169; <span id="year"></span> by Aashi Gupta. All Rights Reserved.</p>
+        <p> Copyright &#169; <span id="year"></span> by Aashi Gupta. All Rights Reserved. <br>
+            Sunflower Logo credits goes to the amazing <a
+                href="https://www.onlygfx.com/sunflower-clipart-png-transparent/">OnlyGFX.com</a> for their
+            aesthetic logo
+            designs!</p>
+
     </footer>
     <script src="script.js"></script>
     <script>

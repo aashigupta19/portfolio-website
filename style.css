@@ -42,6 +42,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 16vh;
+    
     /* height: 13vh;  */
     /* 17vh = 17 view height means 17% of the total screen height*/
     /* background-color: black; */
@@ -69,11 +70,28 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     /* color: white; */
 }
 
+.logo_pic{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.logo_pic:hover{
+    cursor: pointer;
+}
 .logo:hover{
     cursor: default;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
