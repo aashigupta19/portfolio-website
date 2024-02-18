@@ -403,8 +403,8 @@ display: flex;
 }
 .project-img{
     border-radius: 10%;
-    width: 90%;
-    height: 90%;
+    width: 25rem;
+    height: 25rem;
 }
 
 .project-title{
